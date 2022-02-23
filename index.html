@@ -1,12 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Benjamin Brouillette - TP2</title>
 </head>
+
+
 <body>
-    
+
+    <div class="layout-page">
+
+        <header id="header" role="banner">
+
+            <nav class="nav nav--header" role="navigation">
+                <a class="logo" href="tp2/index.html">
+                    <img src="images/materiel-cours-6/pour-tp2/images/logo-final.png"
+                        alt="Accueil (logo À la manière de)">
+                </a>
+                <ul class="nav__list nav__list--sublist">
+                    <li class="nav__listItem"><a href="artistes.html" class="nav__link">Artistes</a></li>
+                    <li class="nav__listItem"><a href="blogue.html" class="nav__link">Blogue</a></li>
+                    <li class="nav__listItem"><a href="ressources.html" class="nav__link">Ressources</a></li>
+                    <li class="nav__listItem"><a href="a-propos.html" class="nav__link">À&nbsp;propos</a></li>
+                </ul>
+            </nav>
+
+            <figure>
+                <source media="(max-width:600px)"
+                    srcset="TP2/images/materiel-cours-6/pour-tp2/images/photo-montage_600.jpg">
+                <source media="(min-width:601px)"
+                    srcset="TP2/images/materiel-cours-6/pour-tp2/images/photo-montage_1000.jpg">
+                <img src="images/materiel-cours-6/pour-tp2/images/photo-montage_600.jpg"
+                    alt="Projet cheval-autruche par Jean-Charles Debroize" class="image">
+            </figure>
+        </header>
+
+        <main id="main" role="main">
+
+            <h1>Jean-Charles Debroize</h1>
+            <h2 class="sous-titre">Les photomanipulations originales de Jean-Charles Debroize</h2>
+            <p>Jean-Charles Debroize est directeur de création chez Kerozen à Rennes, en France. Découvert grâce à son
+                projet de typographie « humaine » qui avait connu un grand succès en 2013, Jean-Charles Debroize excelle
+                en photomanipulation en imaginant des créations saisissantes de réalisme. Ses travaux réalisés pour la
+                suite Adobe Creative Cloud connaissent un succès retentissant. La poésie des images et leur qualité
+                artistique sait mettre en valeur le potentiel créatif des produits Adobe, mais plus que tout, fait
+                valoir l’immense talent de cet artiste!</p>
+
+            <section>
+                <h2>Passionné d'illustration</h2>
+                <figure>
+                    <img src="images/materiel-cours-6/pour-tp2/images/1-ballons_600.jpg"
+                        alt="Projet maison-flottante par Jean-Charles Debroize">
+                    <figcaption>Illustration de ballons (concept d'élévation) <br>© Debroize</figcaption>
+                </figure>
+                <p>
+                    Passionné par le dessin depuis son plus jeune âge, Debroize intègre en 2003 une école d’arts
+                    appliqués à Rennes en France avec l’ambition de devenir illustrateur.Au contact des élèves et des
+                    professeurs, il découvre la retouche numérique et commence à créer des œuvres superposant habilement
+                    photos et illustrations.
+                </p>
+            </section>
+            <section>
+                <h2>Expert en photomontage</h2>
+                <figure>
+                    <img src="images/materiel-cours-6/pour-tp2/images/2-melodie_600.jpg" alt="">
+                    <figcaption>Enfant pilotant un oiseau, <br>© Debroize, 2016 </figcaption>
+                </figure>
+                <p>
+                    Progressivement Debroize se perfectionne sur les logiciels de retouche d’images et développe un
+                    style bien à lui. Il rejoint le studio Kerozen en tant que Directeur Artistique. Cette petite agence
+                    Rennaise de 4 créatifs a toujours eu la volonté de créer des images surprenantes, drôles, poétiques
+                    ou terrifiantes pour lesquelles la maitrise du photomontage est primordiale.
+                </p>
+            </section>
+            <section>
+                <h2>Une inspiration pour les novices</h2>
+                <figure>
+                    <img src="images/materiel-cours-6/pour-tp2/images/3-ours_600.jpg"
+                        alt="Jeune fille chevauchant un ours">
+                    <figcaption>Jeune fille chevauchant un ours, <br>© Debroize, 2017 </figcaption>
+                </figure>
+                <p>
+                    Chaque année, Debroize inspire jeunes et moins jeunes à réaliser des photomontages des plus
+                    diversifiés. Son style parfois juvénile, parfois éditorialiste ou fantastique est une source
+                    d’inspiration inépuisable. Quelques-uns des travaux étudiants peuvent être retrouvés sur le site du
+                    programme Techniques d’intégration multimédia du Cégep de Sainte-Foy(https://timcsf.ca/), collège
+                    francophone basé au Québec, Canada.
+                </p>
+            </section>
+
+            <section class="encadrs__item">
+                <h2>Découvvrez-en plus sur cet artiste</h2>
+                <ul>
+                    <li><a href="https://www.behance.net/jcdebroizea877 "></a>Behance</li>
+                    <li><a
+                            href="http://designspartan.com/presentation/les-photomanipulations-originales-de-jean-charles-debroize/ "></a>Spartan
+                    </li>
+                    <li><a href="http://www.studio-kerozen.com/"></a>Studio Kerozen</li>
+                </ul>
+            </section>
+            <aside class="encadrs__item">
+                <h2>Abonnez-vous à l'infolettre</h2>
+                <p>Une excellente manière de découvrir un artiste du domaine numérique, chaque semaine&#8239;!</p>
+                <form action="index.html">
+                    <label for="courriel">Inscrivez votre adresse courriel : </label><br>
+                    <input id="courriel" name="courriel" type="email">
+                    <button>M'abonner</button>
+                </form>
+            </aside>
+        </main>
+
+        <footer id="footer" role="contentinfo">
+            <nav class="nav nav--footer">
+                ul.nav__list>li*4.nav__listItem>a.nav__linknav__link--active
+            </nav>
+        </footer>
+
+    </div>
+
 </body>
+
 </html>
