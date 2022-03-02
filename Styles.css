@@ -56,8 +56,8 @@ header {
     }
 }
 
-figure {
-
+picture {
+    display: none;
 }
 
 @media (min-width: 600) {
